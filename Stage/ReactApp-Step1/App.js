@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Greeting} from './Greeting';
 function App() { 
+  let url="https://reactjs.org";
    return (
     <div className="App">
       <header className="App-header">
@@ -13,7 +14,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href={url}
           target="_blank"
           rel="noopener noreferrer"
         >
